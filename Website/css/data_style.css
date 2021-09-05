@@ -200,6 +200,17 @@ input.search[type=text], select {
     width: 200px;
 }
 
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+input[type="radio"] {
+    height: 0;
+    width: auto;
+    display: inline;
+}
+
 input {
     height: 40px;
     padding: 10px;
@@ -248,3 +259,9 @@ select{
 	width: 90%;
 	margin-bottom:5px;
 }
+
+.add-field{
+    max-width: 550px;
+    margin: auto;
+}
+
