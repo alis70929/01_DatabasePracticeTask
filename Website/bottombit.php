@@ -1,6 +1,6 @@
 <div class="box side">
            
-           <h2><h2><a href="addentry.php">Add an App</a></h2> | <a class="side" href="showall.php">Show All</a></h2>
+           <h2><a class="side" href="addentry.php">Add an App</a> | <a class="side" href="showall.php">Show All</a></h2>
            
            <form class="searchform" method="post" action ="name_dev.php" enctype="multipart/form_data">
 
@@ -64,7 +64,7 @@
                 </div>
 
                 <!-- In App -->
-                <input class="adv-text" type="checkbox" name="in_app" value="0"/> No In App Purchases
+                <input class="adv-text" type="checkbox" name="in_app" value="0" /> No In App Purchases
                 
                 <div class="flex-container">
                      <div class="adv-text">
@@ -73,7 +73,7 @@
                         
                      <div>
                         <select class="search adv" name="rate_more_or_less">
-                            <option value="" disabled selected>Choose...</option>
+                            <option value="" selected>Choose...</option>
                             <option value="at least" >At Least</option>
                             <option value="at most">At Most</option>
                         </select>

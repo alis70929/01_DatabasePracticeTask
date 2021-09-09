@@ -72,7 +72,7 @@
     JOIN Developer ON (game_details.DeveloperID = Developer.DeveloperID)
     WHERE `Name` LIKE '%$app_name%' 
     AND `DeveloperName` LIKE '%$developer%'
-    AND `GenreName` LIKE '$genre'
+    AND `GenreName` LIKE '%$genre%'
     AND `Price` $cost_op '$cost'
     AND (`Purchases` = $in_app OR `Purchases` = 0)
     AND `Average User Rating` $rate_op $rating
