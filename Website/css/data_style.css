@@ -269,3 +269,23 @@ select{
     width: 95%;
 }
 
+/* Form Error CSS */
+.form-ok {
+    background-color: #fff;
+}
+
+.form-error {
+    background-color: #ff9e9e;
+}
+
+.no-error {
+    display: none;
+}
+
+.error-text {
+    color: darkred;
+}
+
+.defaulted {
+    color: darkgreen;
+}
